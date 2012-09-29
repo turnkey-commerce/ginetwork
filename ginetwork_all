@@ -1,6 +1,6 @@
 #!/bin/bash
 
-python main.py TX
+#python main.py TX
 python main.py LA
 python main.py OK
 python main.py NM
