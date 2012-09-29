@@ -23,4 +23,4 @@ To get any state in particular:
 python main.py NY
 ```
 
-All of the files will be in the folder csv.
+All of the files will be in the `csv` folder.
