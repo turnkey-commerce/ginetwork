@@ -1,0 +1,8 @@
+#!/bin/bash
+
+python main.py TX
+python main.py LA
+python main.py OK
+python main.py NM
+python main.py AR
+
