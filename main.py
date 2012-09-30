@@ -5,10 +5,10 @@ import urllib2, json, sys, string, csv
 def main(query):
     baseUrl = 'http://beta.ginetwork.org/GINetworkAPI/search?query=' + query
     baseUrl += '&providers-per-page=100'
-    with open('csv/GINetwork_' + query + '.csv', 'w') as csvfile:
+    with open('csv/GINetwork_' + query + '.csv', 'wb') as csvfile:
         writer = csv.writer(csvfile)
         writer.writerow([
-            '',
+            'Provider',
             'Email',
             'Name',
             'Phone',
