@@ -22,7 +22,8 @@ def main(query):
             'Latitude',
             'Longitude',
             'EIN',
-            'State'
+            'State',
+            'EIN ID'
         ])
         for index in range(100000):
             url = baseUrl + '&start-at-page=' + str(index)
@@ -51,7 +52,8 @@ def main(query):
                     address['latitude'],
                     address['longitude'],
                     item['ein'],
-                    address['state']
+                    address['state'],
+                    item['ein'].replace('-', '')
                 ])
 
 if __name__ == '__main__':
